@@ -31,7 +31,7 @@ const Home: React.FC = () => {
             <Users size={32} />
           </div>
           <h3 className="text-xl font-bold">شبكة خبراء</h3>
-          <p className="text-gray-500">نخبة من المهندسين والمبرمجين السودانيين العاملين في كبرى الشركات.</p>
+          <p className="text-gray-500">نخبة من المهندسين والمبرمجين السودانيين لمساعدتك في أي وقت.</p>
         </div>
         <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center space-y-4">
           <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto text-primary-600">
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       {/* Stats or Trust */}
       <div className="bg-primary-900 rounded-3xl p-10 text-center text-white space-y-4">
         <h2 className="text-3xl font-bold">جاهز لتبدأ رحلتك؟</h2>
-        <p className="text-primary-100">انضم لمئات المتدربين والموجهين اليوم.</p>
+        <p className="text-primary-100">انضم لمجموعة من المتدربين والموجهين اليوم.</p>
         <Link to="/auth?mode=register" className="inline-block bg-white text-primary-900 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 mt-4">
           سجل مجاناً
         </Link>
